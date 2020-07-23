@@ -80,7 +80,7 @@ declare namespace screenfull {
 		});
 		```
 		*/
-		request(element?: Element): Promise<void>;
+		request(element?: Element, options?:Object): Promise<void>;
 
 		/**
 		Brings you out of fullscreen.
